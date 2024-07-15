@@ -6,24 +6,26 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
     <form action="register.php" method="post">
         <div class="form-fields">
             <label for="fname">First Name</label>
-            <input type="text" name="fname" placeholder="First Name">
+            <input type="text" name="fname" placeholder="First Name" required>
         </div>
         <div class="form-fields">
             <label for="lname">Last Name</label>
-            <input type="text" name="lname" placeholder="Last Name">
+            <input type="text" name="lname" placeholder="Last Name" required>
         </div>
         <div class="form-fields">
             <label for="email">Email</label>
-            <input type="email" name="email" placeholder="Enter Email">
+            <input type="email" name="email" placeholder="Enter your email" required>
         </div>
-        <div class="form-fields">
             <label for="password">Password</label>
-            <input type="password" name="password" placeholder="Enter your Password">
+            <input type="password" name="password" placeholder="Enter your password" required>
         </div>
+  
         <input type="submit" name="submit" value="Rigister">
     </form>
+    </div>
 </body>
 </html>

@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($connection->query($sql) === TRUE) {
         echo "New record created successfully";
         // Redirect to a success page or do something else
-        header("Location: view_cards.php");
+        header("Location: viewpage.html");
     } else {
         echo "Error: " . $sql . "<br>" . $connection->error;
     }
